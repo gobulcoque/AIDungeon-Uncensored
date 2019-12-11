@@ -32,9 +32,7 @@ def select_game():
 
         context = ""
         console_print("\nEnter a prompt that describes who you are and the first couple sentences of where you start"
-                      "out ex:\n 'You are Anon. You watch helplessly as dozens of loser neckbeards rape your catgirl Lilly." +
-                      "You were about to help her, but you realize that Lilly actually enjoys it."
-                      "Lilly reaches her fifth orgasm when another man cums all over her body and' ")
+                      "out ex:\n '' ")
         prompt = input("Starting Prompt: ")
         return context, prompt
 
@@ -58,14 +56,14 @@ def select_game():
     return context, prompt
 
 def instructions():
-    text = "\nAI Dungeon 2 Instructions: Coomer Edition"
+    text = "\nAI Dungeon 2"
     text += '\n AI has limited memory. For a given session it will only keep in mind the original prompt plus 8 recent events'
     text += '\n Use detailed filler prompts to keep on track'
-    text += '\n write in second person, use details and describe events, like: remove her panties before looking her in the eyes, instead of: fuck her'
+    text += '\n write in second person, use details and describe events'
     text += '\n To speak enter \'say "(thing you want to say)"\' or just "(thing you want to say)" '
-    text += '\n But keep in mind say and "say" is unstable as fuck and may hang your session'
+    text += '\n But keep in mind say and "say" is unstable and may hang your session'
     text += '\n\nThe following commands can be entered for any action: '
-    text += '\n  "revert"   Reverts the last action allowing you to pick a different sized cock.'
+    text += '\n  "revert"   Reverts the last action allowing you to pick a different action'
     text += '\n  "quit"     Quits the game and saves'
     text += '\n  "restart"  Starts a new game and saves your current one'
     text += '\n  "save"     Makes a new save of your game and gives you the save ID'
