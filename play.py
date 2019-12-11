@@ -31,9 +31,10 @@ def select_game():
     if choice == len(settings):
 
         context = ""
-        console_print("\nEnter a prompt that describes who you are and the first couple sentences of where you start "
-                      "out ex:\n 'You are a coomer in the cumdom of Cunny. You are hunting the evil femoid who has been " +
-                      "terrorizing the cumdom. You enter the AI Dungeon searching for the femoid and see' ")
+        console_print("\nEnter a prompt that describes who you are and the first couple sentences of where you start"
+                      "out ex:\n 'You are Anon. You watch helplessly as dozens of loser neckbeards rape your catgirl Lilly." +
+                      "You were about to help her, but you realize that Lilly actually enjoys it."
+                      "Lilly reaches her fifth orgasm when another man cums all over her body and' ")
         prompt = input("Starting Prompt: ")
         return context, prompt
 
