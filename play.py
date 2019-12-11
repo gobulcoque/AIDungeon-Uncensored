@@ -59,6 +59,7 @@ def select_game():
 
 def instructions():
     text = "\nAI Dungeon 2 Instructions: Coomer Edition"
+    text += '\n discord trannies make up the drama and argue with each other, i didnt post shit in #488526207 thread'
     text += '\n AI has limited memory. For a given session it will only keep in mind the original prompt plus 8 recent events'
     text += '\n Use detailed filler prompts to keep on track'
     text += '\n write in second person, use details and describe events, like: remove her panties before looking her in the eyes, instead of: fuck her'
