@@ -58,11 +58,11 @@ def select_game():
 
 def instructions():
     text = "\nAI Dungeon 2 Instructions: Coomer Edition"
-    text += '\n AI has limited memory. For a given session it will only keep in mind the original prompt plus 8 recent events
-    text += '\n Use detailed filler prompts to keep on track
-    text += '\n write in second person, use details and describe events, like: remove her panties before looking her in the eyes, instead of: fuck her
+    text += '\n AI has limited memory. For a given session it will only keep in mind the original prompt plus 8 recent events'
+    text += '\n Use detailed filler prompts to keep on track'
+    text += '\n write in second person, use details and describe events, like: remove her panties before looking her in the eyes, instead of: fuck her'
     text += '\n To speak enter \'say "(thing you want to say)"\' or just "(thing you want to say)" '
-    text += '\n But keep in mind say and "say" is unstable as fuck and may hang your session
+    text += '\n But keep in mind say and "say" is unstable as fuck and may hang your session'
     text += '\n\nThe following commands can be entered for any action: '
     text += '\n  "revert"   Reverts the last action allowing you to pick a different sized cock.'
     text += '\n  "quit"     Quits the game and saves'
