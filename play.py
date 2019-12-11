@@ -32,8 +32,8 @@ def select_game():
 
         context = ""
         console_print("\nEnter a prompt that describes who you are and the first couple sentences of where you start "
-                      "out ex:\n 'You are a knight in the kingdom of Larion. You are hunting the evil dragon who has been " +
-                      "terrorizing the kingdom. You enter the forest searching for the dragon and see' ")
+                      "out ex:\n 'You are a coomer in the cumdom of Cunny. You are hunting the evil femoid who has been " +
+                      "terrorizing the cumdom. You enter the AI Dungeon searching for the femoid and see' ")
         prompt = input("Starting Prompt: ")
         return context, prompt
 
@@ -57,11 +57,14 @@ def select_game():
     return context, prompt
 
 def instructions():
-    text = "\nAI Dungeon 2 Instructions:"
-    text += '\n Enter actions starting with a verb ex. "go to the tavern" or "attack the orc."'
+    text = "\nAI Dungeon 2 Instructions: Coomer Edition"
+    text += '\n AI has limited memory. For a given session it will only keep in mind the original prompt plus 8 recent events
+    text += '\n Use detailed filler prompts to keep on track
+    text += '\n write in second person, use details and describe events, like: remove her panties before looking her in the eyes, instead of: fuck her
     text += '\n To speak enter \'say "(thing you want to say)"\' or just "(thing you want to say)" '
+    text += '\n But keep in mind say and "say" is unstable as fuck and may hang your session
     text += '\n\nThe following commands can be entered for any action: '
-    text += '\n  "revert"   Reverts the last action allowing you to pick a different action.'
+    text += '\n  "revert"   Reverts the last action allowing you to pick a different sized cock.'
     text += '\n  "quit"     Quits the game and saves'
     text += '\n  "restart"  Starts a new game and saves your current one'
     text += '\n  "save"     Makes a new save of your game and gives you the save ID'
@@ -73,8 +76,8 @@ def instructions():
 def play_aidungeon_2():
  
     console_print(
-        "\nAI Dungeon 2 will save and use your actions and game to continually improve AI Dungeon."
-        + " If you would like to disable this enter 'nosaving' for any action. This will also turn off the "
+        "\nAI Dungeon 2 will save your session, but will improve jack shit, also no one cares"
+        + " But if you don't want to share your fetishes with everyone else, type 'nosaving' for any action. This will also turn off the "
         + "ability to save games.\n"
     )
  
@@ -92,7 +95,7 @@ def play_aidungeon_2():
     top_k = 20
  
     console_print("\nBefore we start, would you like to change the default temperature (" + str(temp) + ") and top_k (" + str(top_k) + ") value?\n")
-    choice = input("1) Aeeyup!\n-) Press enter to skip\n>")
+    choice = input("1) Lower the temp! I wanna cuddle!\n-) Press enter to skip\n>")
  
     if choice == "1":
         temp = float(input("New temperature: "))
@@ -220,7 +223,7 @@ def play_aidungeon_2():
                     if similarity > 0.9:
                         story_manager.story.actions = story_manager.story.actions[:-1]
                         story_manager.story.results = story_manager.story.results[:-1]
-                        console_print("Woops that action caused the model to start looping. Try a different action to prevent that.")
+                        console_print("It's looping. Try something else or reword your action.")
                         continue
 
                 if player_won(result):
