@@ -32,7 +32,7 @@ def select_game():
 
         context = ""
         console_print("\nEnter a prompt that describes who you are and the first couple sentences of where you start"
-                      "out ex:\n '' ")
+                      )
         prompt = input("Starting Prompt: ")
         return context, prompt
 
